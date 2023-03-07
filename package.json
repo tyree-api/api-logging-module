@@ -1,5 +1,5 @@
 {
-  "name": "@tyree-api/api-template-module",
+  "name": "@tyree-api/api-logging-module",
   "version": "1.0.1",
   "description": "Template Module",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tyree-api/api-template-module.git"
+    "url": "git+https://github.com/tyree-api/api-logging-module.git"
   },
   "keywords": [
     "API"
@@ -16,10 +16,13 @@
   "author": "Tyree Zacharopoulos <tyree@tyree.ca>",
   "license": "AGPL-3.0",
   "bugs": {
-    "url": "https://github.com/tyree-api/api-template-module/issues"
+    "url": "https://github.com/tyree-api/api-logging-module/issues"
   },
-  "homepage": "https://github.com/tyree-api/api-template-module#readme",
+  "homepage": "https://github.com/tyree-api/api-logging-module#readme",
   "publishConfig": {
     "@tyree-api:registry": "https://npm.pkg.github.com"
+  },
+  "dependencies": {
+    "winston": "^3.8.2"
   }
 }

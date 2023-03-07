@@ -1,2 +1,2 @@
-# tyree-api-template-module
- Template Module for my API
+# tyree-api-logging-module
+Logging Module for my API

@@ -5,3 +5,9 @@ describe('Logger', () => {
         Logger.error('Test error');
     });
 });
+
+describe('Logger', () => {
+    it('should log as info', () => {
+        Logger.info('Test Info');
+    });
+});

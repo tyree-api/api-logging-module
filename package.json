@@ -1,31 +1,32 @@
 {
-  "name": "@tyree-api/api-logging-module",
-  "version": "1.0.2",
-  "description": "Template Module",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tyree-api/api-logging-module.git"
-  },
-  "keywords": [
-    "API"
-  ],
-  "author": "Tyree Zacharopoulos <tyree@tyree.ca>",
-  "license": "AGPL-3.0",
-  "bugs": {
-    "url": "https://github.com/tyree-api/api-logging-module/issues"
-  },
-  "homepage": "https://github.com/tyree-api/api-logging-module#readme",
-  "publishConfig": {
-    "@tyree-api:registry": "https://npm.pkg.github.com"
-  },
-  "dependencies": {
-    "winston": "^3.8.2"
-  },
-  "devDependencies": {
-    "jest": "^29.5.0"
-  }
+	"name": "@tyree-api/api-logging-module",
+	"version": "1.0.3",
+	"description": "Logging Module",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/tyree-api/api-logging-module.git"
+	},
+	"keywords": [
+		"API",
+		"Logging"
+	],
+	"author": "Tyree Zacharopoulos <tyree@tyree.ca>",
+	"license": "AGPL-3.0",
+	"bugs": {
+		"url": "https://github.com/tyree-api/api-logging-module/issues"
+	},
+	"homepage": "https://github.com/tyree-api/api-logging-module#readme",
+	"publishConfig": {
+		"@tyree-api:registry": "https://npm.pkg.github.com"
+	},
+	"dependencies": {
+		"winston": "^3.8.2"
+	},
+	"devDependencies": {
+		"jest": "^29.5.0"
+	}
 }

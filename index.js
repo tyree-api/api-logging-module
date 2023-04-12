@@ -13,6 +13,7 @@ const config = {
 		call: 8,
 		ws: 9,
 		email: 10,
+		cache: 11,
 	},
 	colors: {
 		error: "bold white redBG",
@@ -26,6 +27,8 @@ const config = {
 		call: "bold blue blackBG",
 		ws: "magenta greenBG",
 		email: "black cyanBG",
+		ws: "magenta greenBG",
+		
 	},
 };
 
@@ -35,7 +38,7 @@ const Logger = (module.exports = winston.createLogger({
 	levels: config.levels,
 	format: winston.format.combine(winston.format.colorize(), winston.format.simple()),
 	transports: [new winston.transports.Console()],
-	level: "email",
+	level: "cache",
 }));
 
 module.exports = Logger;

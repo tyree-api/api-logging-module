@@ -27,8 +27,7 @@ const config = {
 		call: "bold blue blackBG",
 		ws: "magenta greenBG",
 		email: "black cyanBG",
-		ws: "magenta greenBG",
-		
+		cache: "magenta greenBG",
 	},
 };
 

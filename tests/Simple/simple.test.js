@@ -76,6 +76,12 @@ describe("Logger Simple", () => {
 		Logger.email("Email");
 	});
 });
+// Cache Level
+describe("Logger Simple", () => {
+	it('Should log as "cache"', () => {
+		Logger.cache("Cache");
+	});
+});
 
 // JSON Data
 describe("Logger JSON Simple", () => {
@@ -85,6 +91,6 @@ describe("Logger JSON Simple", () => {
 			age: 30,
 			email: "test@test.ca",
 		};
-		Logger.email(JSONExample.age);
+		Logger.email(JSONExample.email);
 	});
 });

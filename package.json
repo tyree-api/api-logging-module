@@ -1,6 +1,6 @@
 {
 	"name": "@tyree-api/api-logging-module",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"description": "Logging Module",
 	"main": "index.js",
 	"scripts": {
